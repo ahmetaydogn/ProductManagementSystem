@@ -1,4 +1,4 @@
-# Kodların çalışması için TkOdev.py ve MyProduct.txt aynı dosya konumunda olmalı.
+# Kodların çalışması için TkOdev.py ve MyProduct.txt aynı dosya konumunda olmalıdır.
 
 from tkinter import *
 from tkinter import ttk
