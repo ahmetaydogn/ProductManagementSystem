@@ -102,7 +102,7 @@ def GetValuesForTable(productList):
 def AddProductManager():
     global lastId
     try:
-        if(nameEntry.get() == "" or productType.get()  == "" or productPrice == "" or productBrandCombobox.get() == "" or productPriceRangeCombobox.get() == "" or productOSCombobox.get() == ""):
+        if(nameEntry.get() == "" or productTypeEntry.get()  == "" or productPriceEntry.get() == "" or productBrandCombobox.get() == "" or productPriceRangeCombobox.get() == "" or productOSCombobox.get() == ""):
             messagebox.showwarning("DEĞERLERİ DÜZGÜN GİRİNİZ", "Lütfen, Değerleri Düzgün Giriniz")
         else:
             newProduct = Product(lastId, fixTheString(nameEntry.get()), fixTheString(productTypeEntry.get()), fixTheString(productPriceEntry.get()), fixTheString(productReleaseDateEntry.get()), fixTheString(productBrandCombobox.get()), fixTheString(productPriceRangeCombobox.get()), fixTheString(productOSCombobox.get()), fixTheString(productAvailableCombobox.get()))
