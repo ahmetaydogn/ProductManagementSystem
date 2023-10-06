@@ -1,3 +1,5 @@
+# Kodların çalışması için TkOdev.py ve MyProduct.txt aynı dosya konumunda olmalı.
+
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
